@@ -5,3 +5,7 @@ pandas
 seaborn
 tqdm
 pygame
+torchrl
+vmas
+PyOpenGL
+PyOpenGL_accelerate
