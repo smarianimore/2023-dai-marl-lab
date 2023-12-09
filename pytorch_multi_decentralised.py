@@ -116,7 +116,7 @@ policy_net = torch.nn.Sequential(
         ],  # n_obs_per_agent
         n_agent_outputs=2 * env.action_spec.shape[-1],  # 2 * n_actions_per_agents
         n_agents=env.n_agents,
-        centralised=False,  # each agent will act from its own observation, BUT REMEMBER THAT WE ENABLED PARAMS SHARING!
+        centralised=False,  # each agent will act from its own observation
         share_params=share_parameters_policy,
         device=device,
         depth=2,
